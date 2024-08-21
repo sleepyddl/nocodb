@@ -99,7 +99,7 @@
     "trigger": "触发器",
     "addLookupField": "添加{count}个查找字段",
     "style": "Style",
-    "label": "Label",
+    "label": "标签",
     "role": "角色",
     "general": "通用",
     "quit": "退出",
@@ -210,6 +210,7 @@
     "confirm": "确认",
     "generate": "生成",
     "copy": "复制",
+    "copied": "Copied",
     "are": "是",
     "misc": "其他",
     "lock": "锁定",
@@ -283,7 +284,8 @@
     "connection": "连接",
     "connections": "连接",
     "private": "私人",
-    "request": "请求"
+    "request": "请求",
+    "languages": "Languages"
   },
   "objects": {
     "files": "文件",
@@ -375,7 +377,7 @@
       "zendesk": "Zendesk",
       "mysql": "MySQL",
       "postgreSQL": "PostgreSQL",
-      "sqlServer": "SQL Server",
+      "sqlite": "SQLite",
       "dataBricks": "DataBricks",
       "mssqlServer": "MSSQL Server",
       "oracle": "Oracle",
@@ -614,6 +616,9 @@
     "categories": "类别"
   },
   "labels": {
+    "fieldID": "Field ID",
+    "addDescription": "Add description",
+    "editDescription": "Edit description",
     "urlFormula": "URL Formula",
     "selectIcon": "none",
     "selectAWebhook": "--select a webhook--",
@@ -657,6 +662,7 @@
     "metaSync": "元同步",
     "mention": "提及",
     "today": "今天",
+    "currentDate": "Current date",
     "workspace": "工作区",
     "txt": "TXT 记录值",
     "transferOwnership": "转让所有权",
@@ -819,7 +825,7 @@
     "lengthValue": "长度/值",
     "dbType": "数据库类型",
     "servername": "服务器地址",
-    "sqliteFile": "SQLite 文件",
+    "sqliteFile": "SQLite file path",
     "hostAddress": "主机地址",
     "port": "端口号",
     "username": "用户名",
@@ -979,7 +985,8 @@
     "fitImage": "适配图像",
     "coverImageArea": "封面图片",
     "syncData": "同步数据",
-    "syncDataModalSubtitle": "注册您感兴趣的服务，以便在服务可用时收到通知"
+    "syncDataModalSubtitle": "注册您感兴趣的服务，以便在服务可用时收到通知",
+    "redirectToUrl": "Redirect to URL"
   },
   "activity": {
     "webhookDetails": "Webhook 详情",
@@ -1235,9 +1242,11 @@
       "lockedFieldTooltip": "预填值"
     },
     "getPreFilledLink": "获取预填链接",
-    "group": "分组"
+    "group": "分组",
+    "goToDocs": "Go to Docs"
   },
   "tooltip": {
+    "currentDateNotAvail": "Current date option not available for this data source / data type",
     "privateConnection": "启用后，此工作区中的其他创建者无法看到此连接。",
     "optionalDatabaseName": "可选。如果留空，则使用默认数据库 \"{database}\"。",
     "optionalSchemaName": "可选。如果留空，则使用默认模式 \"{schema}\"。",
@@ -1537,7 +1546,7 @@
       "apiOptions": "访问项目通过",
       "submitAnotherForm": "显示“提交另一个表单”按钮",
       "showBlankForm": "5 秒后显示空表单",
-      "emailForm": "发电子邮件给我",
+      "emailForm": "Email responses to",
       "showSysFields": "显示系统字段",
       "filterAutoApply": "自动应用",
       "formDisplayMessage": "显示消息",
@@ -1593,6 +1602,9 @@
       "tablesMetadataInSync": "表元数据同步",
       "addMultipleUsers": "可以使用多个英文逗号 (,) 分隔邮箱地址",
       "enterTableName": "输入表名",
+      "enterTableDescription": "Enter table description...",
+      "enterFieldDescription": "Enter field description...",
+      "enterViewDescription": "Enter view description...",
       "enterLayoutName": "输入布局名称",
       "enterDashboardName": "输入仪表板名称",
       "defaultColumns": "默认字段",

@@ -535,6 +535,23 @@ import NcChevronUpSmall from '~icons/nc-icons/chevron-up-small'
 import NcChevronDownSmall from '~icons/nc-icons/chevron-down-small'
 import NcChevronUpDownSmall from '~icons/nc-icons/chevron-up-down-small'
 
+// Api snippets lang
+import NcLangShell from '~icons/nc-icons/lang-shell.svg'
+import NcLangJavascript from '~icons/nc-icons/lang-js.svg'
+import NcLangNode from '~icons/nc-icons/lang-node.svg'
+import NcLangNocodbSdk from '~icons/nc-icons/lang-nc-sdk.svg'
+import NcLangPhp from '~icons/nc-icons/lang-php.svg'
+import NcLangPython from '~icons/nc-icons/lang-python.svg'
+import NcLangRuby from '~icons/nc-icons/lang-ruby.svg'
+import NcLangJava from '~icons/nc-icons/lang-java.svg'
+import NcLangC from '~icons/nc-icons/lang-c.svg'
+
+import NcGridViewIcon from '~icons/nc-icons/grid'
+import NcFormViewIcon from '~icons/nc-icons/form'
+import NcGalleryViewIcon from '~icons/nc-icons/gallery'
+import NcKanbanViewIcon from '~icons/nc-icons/kanban'
+import NcCalendarViewIcon from '~icons/nc-icons/calendar'
+
 // keep it for reference
 // todo: remove it after all icons are migrated
 /* export const iconMapOld = {
@@ -683,6 +700,12 @@ import NcChevronUpDownSmall from '~icons/nc-icons/chevron-up-down-small'
 } as const */
 
 export const iconMap = {
+  calendar: NcCalendarViewIcon,
+  grid: NcGridViewIcon,
+  form: NcFormViewIcon,
+  gallery: NcGalleryViewIcon,
+  kanban: NcKanbanViewIcon,
+
   strike: NcStrike,
   atSign: NcAtSign,
   slash: NcSlash,
@@ -742,7 +765,7 @@ export const iconMap = {
   workspaceDefault: MsGroup,
   project: Project,
   search: NcSearch,
-  calendar: Calendar,
+  // calendar: Calendar,
   checkCircle: NcCheckCircle,
   checkFill: NcCheckFill,
   externalLink: NcExternalLink,
@@ -891,11 +914,11 @@ export const iconMap = {
   xml: h('span', { class: 'material-symbols' }, 'code'),
   airtable: LogosAirtable,
   excelColored: VscodeIconsExcelColored,
-  grid: h('span', { class: 'material-symbols' }, 'grid_view'),
-  gallery: h('span', { class: 'material-symbols' }, 'image'),
-  form: h('span', { class: 'material-symbols' }, 'article'),
+  // grid: h('span', { class: 'material-symbols' }, 'grid_view'),
+  // gallery: h('span', { class: 'material-symbols' }, 'image'),
+  // form: h('span', { class: 'material-symbols' }, 'article'),
   map: h('span', { class: 'material-symbols' }, 'map'),
-  kanban: h('span', { class: 'material-symbols' }, 'view_kanban'),
+  // kanban: h('span', { class: 'material-symbols' }, 'view_kanban'),
   view: h('span', { class: 'material-symbols' }, 'visibility'),
   // rowHeight: h('span', { class: 'material-symbols' }, 'height'),
   rowHeight: h(PhSplitVerticalThin, { style: { fontSize: '14px' } }),
@@ -1287,6 +1310,15 @@ export const iconMap = {
   chevronUpSmall: NcChevronUpSmall,
   chevronDownSmall: NcChevronDownSmall,
   chevronUpDownSmall: NcChevronUpDownSmall,
+  langShell: NcLangShell,
+  langJavascript: NcLangJavascript,
+  langNode: NcLangNode,
+  langNocodbSdk: NcLangNocodbSdk,
+  langPhp: NcLangPhp,
+  langPython: NcLangPython,
+  langRuby: NcLangRuby,
+  langJava: NcLangJava,
+  langC: NcLangC,
 }
 
 export const getMdiIcon = (type: string): any => {
